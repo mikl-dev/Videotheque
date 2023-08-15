@@ -10,8 +10,8 @@ class Application(tk.Tk):
         self.label = tk.Label(self, text="J'adore Python !")
         self.bouton = tk.Button(self, text="Quitter", command=self.quit)
         self.label.pack()
-        self.bouton.pack()
-
+        self.bouton.place (x=730, y=350)    
+        
 
 
 
